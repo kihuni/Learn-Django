@@ -14,7 +14,7 @@
 
 ## Creating the polls app
 
-- Learn django by creating a polls app. Full documentation [Django](https://docs.djangoproject.com/en/4.1/intro/tutorial01/)
+- Learn django by creating a polls app. [Full documentation](https://docs.djangoproject.com/en/4.1/intro/tutorial01/)
 
  - Django comes with a utility that automatically generates the basic directory structure of an app, so you can focus on writing code rather than creating directories.
 
