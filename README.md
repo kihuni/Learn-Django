@@ -1,7 +1,7 @@
   # Learn django by creating a polls app. [Full documentation](https://docs.djangoproject.com/en/4.1/intro/tutorial01/)
 
 
-# Creating a project
+## Creating a project
 
 - To create a project in Django run the following command
 
@@ -9,7 +9,7 @@
 
 - This will create a `nameOfTheProject` directory in your current directory
 
-# Development Server
+## Development Server
 
 - To check if everything is installed, run the following command
 
