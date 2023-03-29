@@ -1,4 +1,7 @@
-# Creating a project 
+  # Learn django by creating a polls app. [Full documentation](https://docs.djangoproject.com/en/4.1/intro/tutorial01/)
+
+
+# Creating a project
 
 - To create a project in Django run the following command
 
@@ -13,8 +16,6 @@
 ` python manage.py runserver `
 
 ## Creating the polls app
-
-- Learn django by creating a polls app. [Full documentation](https://docs.djangoproject.com/en/4.1/intro/tutorial01/)
 
  - Django comes with a utility that automatically generates the basic directory structure of an app, so you can focus on writing code rather than creating directories.
 
