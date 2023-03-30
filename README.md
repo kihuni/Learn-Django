@@ -26,6 +26,17 @@
 
  - A model is the single, definitive source of information about your data. It contains the essential fields and behaviors of the data you’re storing
 - In our poll app, we’ll create two models: Question and Choice. A Question has a question and a publication date. A Choice has two fields: the text of the choice and a vote tally. Each Choice is associated with a Question.[polls app](https://github.com/kihuni/Learn-Django/blob/main/test_site/polls/models.py)
- 
+
+### Activating models
+
+That small bit of model code gives Django a lot of information. With it, Django is able to:
+
+- Create a database schema (CREATE TABLE statements) for this app.
+- Create a Python database-access API for accessing Question and Choice objects.
+
+But first we need to tell our project that the polls app is installed. 
+
+- To include the app in our project, we need to add a reference to its configuration class in the INSTALLED_APPS setting, that's [polls,py](https://github.com/kihuni/Learn-Django/blob/main/test_site/polls/apps.py) to [settings.py(installed app section)](https://github.com/kihuni/Learn-Django/blob/main/test_site/test_site/settings.py)
+
 
 
