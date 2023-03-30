@@ -1,4 +1,4 @@
-  # Learn Django by creating a polls app. [Full documentation](https://docs.djangoproject.com/en/4.1/intro/tutorial01/)
+  ## Learn Django by creating a polls app. [Django documentation](https://docs.djangoproject.com/en/4.1/intro/tutorial01/)
 
 
 ## Creating a project
