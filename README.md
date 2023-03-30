@@ -1,4 +1,7 @@
-# Creating a project 
+  # Learn Django by creating a polls app. [Full documentation](https://docs.djangoproject.com/en/4.1/intro/tutorial01/)
+
+
+## Creating a project
 
 - To create a project in Django run the following command
 
@@ -6,15 +9,13 @@
 
 - This will create a `nameOfTheProject` directory in your current directory
 
-# Development Server
+## Development Server
 
 - To check if everything is installed, run the following command
 
 ` python manage.py runserver `
 
 ## Creating the polls app
-
-- Learn django by creating a polls app. [Full documentation](https://docs.djangoproject.com/en/4.1/intro/tutorial01/)
 
  - Django comes with a utility that automatically generates the basic directory structure of an app, so you can focus on writing code rather than creating directories.
 
@@ -25,5 +26,8 @@
  ## Creating Models
 
  - A model is the single, definitive source of information about your data. It contains the essential fields and behaviors of the data you’re storing
+<<<<<<< HEAD
 
  
+=======
+>>>>>>> f2ca7f0c9399f3dd82bc6a90047de0db77e240b1
