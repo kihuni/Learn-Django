@@ -38,5 +38,9 @@ But first we need to tell our project that the polls app is installed.
 
 - To include the app in our project, we need to add a reference to its configuration class in the INSTALLED_APPS setting, that's [polls,py](https://github.com/kihuni/Learn-Django/blob/main/test_site/polls/apps.py) to [settings.py(installed app section)](https://github.com/kihuni/Learn-Django/blob/main/test_site/test_site/settings.py)
 
+### Three-step guide to keep in mind when making changes to your models:
 
+- Change your models (in models.py).
+- Run `python manage.py makemigrations` to create migrations for those changes
+- Run `python manage.py migrate` to apply those changes to the database
 
