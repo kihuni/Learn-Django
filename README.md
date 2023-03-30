@@ -22,12 +22,10 @@
  ## Projects vs. apps
 
  - What’s the difference between a project and an app? An app is a web application that does something – e.g., a blog system, a database of public records or a small poll app. A project is a collection of configuration and apps for a particular website. A project can contain multiple apps. An app can be in multiple projects.
- 
  ## Creating Models
 
  - A model is the single, definitive source of information about your data. It contains the essential fields and behaviors of the data you’re storing
-<<<<<<< HEAD
-
+- In our poll app, we’ll create two models: Question and Choice. A Question has a question and a publication date. A Choice has two fields: the text of the choice and a vote tally. Each Choice is associated with a Question.[polls app](https://github.com/kihuni/Learn-Django/blob/main/test_site/polls/models.py)
  
-=======
->>>>>>> f2ca7f0c9399f3dd82bc6a90047de0db77e240b1
+
+
