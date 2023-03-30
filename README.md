@@ -26,8 +26,6 @@
  ## Creating Models
 
  - A model is the single, definitive source of information about your data. It contains the essential fields and behaviors of the data you’re storing
-<<<<<<< HEAD
+- In our poll app, we’ll create two models: Question and Choice. A Question has a question and a publication date. A Choice has two fields: the text of the choice and a vote tally. Each Choice is associated with a Question.
 
- 
-=======
->>>>>>> f2ca7f0c9399f3dd82bc6a90047de0db77e240b1
+
