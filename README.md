@@ -64,4 +64,4 @@ class Person(models.Model):
         return '%s %s' % (self.first_name, self.last_name)
 
 ```
-[Adding __str__()](https://github.com/kihuni/Learn-Django/blob/main/test_site/polls/models.py)
+[Adding __str__() method](https://github.com/kihuni/Learn-Django/blob/main/test_site/polls/models.py)
