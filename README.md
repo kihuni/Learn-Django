@@ -44,3 +44,24 @@ But first we need to tell our project that the polls app is installed.
 - Run `python manage.py makemigrations` to create migrations for those changes
 - Run `python manage.py migrate` to apply those changes to the database
 
+### __str__()
+
+##### Model.__str__()
+
+The `__str__()` method is called whenever you call str() on an object. Django uses str(obj) in a number of places. Most notably, to display an object in the Django admin site and as the value inserted into a template when it displays an object. Thus, you should always return a nice, human-readable representation of the model from the `__str__()` method.
+
+For example:
+
+```
+
+from django.db import models
+
+class Person(models.Model):
+    first_name = models.CharField(max_length=50)
+    last_name = models.CharField(max_length=50)
+
+    def __str__(self):
+        return '%s %s' % (self.first_name, self.last_name)
+
+```
+[Adding __str__()]()
