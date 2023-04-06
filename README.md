@@ -27,6 +27,7 @@
  - To create views, write your views on [polls/views](https://github.com/kihuni/Learn-Django/blob/main/test_site/polls/views.py). To call the view, we need to map it to a URL - and for this we need a URLconf.
 
  - To create a URLconf in the polls directory, create a file called [urls.py](https://github.com/kihuni/Learn-Django/blob/main/test_site/polls/urls.py) and map your views to the coresponding URL
+ - Finally, we map/point the root url from the project module to point to apps urls.In the [root url](https://github.com/kihuni/Learn-Django/blob/main/test_site/test_site/urls.py) add an import for django.urls.include and insert an include() in the urlpatterns
  ## Creating Models
 
  - A model is the single, definitive source of information about your data. It contains the essential fields and behaviors of the data you’re storing
