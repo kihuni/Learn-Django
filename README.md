@@ -71,3 +71,33 @@ class Person(models.Model):
 
 ```
 [Adding __str__() method](https://github.com/kihuni/Learn-Django/blob/main/test_site/polls/models.py)
+
+### Creating an admin user
+
+- To create an admin user, run:
+
+`python3 manage.py createsuperuser`
+
+- Enter your desired username and press enter
+
+`Username: admin`
+
+- You will then be prompted for your desired email address
+
+`Email address: admin@example.com`
+
+- The final step is to enter your password. You will be asked to enter your password twice, the second time as a confirmation of the first.
+
+```
+Password: **********
+Password (again): *********
+Superuser created successfully.
+
+```
+- Start the server and head to the admin route. You will be prompted to enter your username and password
+
+- After successfully logged, You should see a few types of editable content: groups and users. They are provided by django.contrib.auth, the authentication framework shipped by Django.
+
+### Make the poll app modifiable in the admin
+
+- To achieve this, we need to tell the admin that Question objects have an admin interface. To do this, open the polls/admin.py file, and edit it to look like this [polls/admin.py](https://github.com/kihuni/Learn-Django/blob/main/test_site/polls/admin.py)
