@@ -101,3 +101,16 @@ Superuser created successfully.
 ### Make the poll app modifiable in the admin
 
 - To achieve this, we need to tell the admin that Question objects have an admin interface. To do this, open the polls/admin.py file, and edit it to look like this [polls/admin.py](https://github.com/kihuni/Learn-Django/blob/main/test_site/polls/admin.py)
+
+### What is a view
+
+- A view is a type of web page in your django application that generally serves a specific function and has a specific template. For example, in our poll aplication, we'll have the following four views
+  
+    - Question "index"page :- displays the latest few questions
+    - Question "index"page :- displys a question text, with no result but with a form to vote
+    - Question "result"page :- display result for a particular question
+    - Vote action :- handles  voting for a particular choice in a particular question
+
+
+ - When for example a user request a page from your website. Django will load [test.urls](https://github.com/kihuni/Learn-Django/blob/main/test_site/test_site/urls.py) Python module because it’s pointed to by the ROOT_URLCONF setting. It finds the variable named urlpatterns and traverses the patterns in order. After finding the match at 'polls/', it strips off the matching text ("polls/") and sends the remaining text – "34/" – to the ‘polls.urls’ URLconf for further processing
+
