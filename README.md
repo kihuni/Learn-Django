@@ -112,5 +112,5 @@ Superuser created successfully.
     - Vote action :- handles  voting for a particular choice in a particular question
 
 
- - When for example a user request a page from your website. Django will load [test.urls](https://github.com/kihuni/Learn-Django/blob/main/test_site/test_site/urls.py) Python module because it’s pointed to by the ROOT_URLCONF setting. It finds the variable named urlpatterns and traverses the patterns in order. After finding the match at 'polls/', it strips off the matching text ("polls/") and sends the remaining text – "34/" – to the ‘polls.urls’ URLconf for further processing
+ - When for example a user request a page from your website. Django will load [test_site.urls](https://github.com/kihuni/Learn-Django/blob/main/test_site/test_site/urls.py) Python module because it’s pointed to by the ROOT_URLCONF setting. It finds the variable named urlpatterns and traverses the patterns in order. After finding the match at 'polls/', it strips off the matching text ("polls/") and sends the remaining text to the ‘polls.urls’ URLconf for further processing
 
