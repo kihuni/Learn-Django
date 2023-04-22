@@ -117,6 +117,6 @@ Superuser created successfully.
  ## Testing
  ### Automated testing
  - Test are routines that repetendly check the operation of your code
- - In automated test, test is done  for you by the system. You create a set of tests once, and then as you make changes to your app, you can check that your code still works as you originally intended, without having to perform time consuming manual testing. (test)[]
+ - In automated test, test is done  for you by the system. You create a set of tests once, and then as you make changes to your app, you can check that your code still works as you originally intended, without having to perform time consuming manual testing. [tests](https://github.com/kihuni/Learn-Django/blob/main/test_site/polls/tests.py)
 
 
