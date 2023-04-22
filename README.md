@@ -114,3 +114,9 @@ Superuser created successfully.
 
  - When for example a user request a page from your website. Django will load [test_site.urls](https://github.com/kihuni/Learn-Django/blob/main/test_site/test_site/urls.py) Python module because it’s pointed to by the ROOT_URLCONF setting. It finds the variable named urlpatterns and traverses the patterns in order. After finding the match at 'polls/', it strips off the matching text ("polls/") and sends the remaining text to the ‘polls.urls’ URLconf for further processing
 
+ ## Testing
+ ### Automated testing
+ - Test are routines that repetendly check the operation of your code
+ - In automated test, test is done  for you by the system. You create a set of tests once, and then as you make changes to your app, you can check that your code still works as you originally intended, without having to perform time consuming manual testing. (test)[]
+
+
